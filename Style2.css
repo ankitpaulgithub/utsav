@@ -35,6 +35,12 @@
     color: #E65024;
     padding: 12px 16px;
 }
+.link a{
+    background: #FFE6C4;
+    color: #E65024;
+    padding: 12px 16px;
+}
+
 
 .navbarLeft{
     min-width: 130px;

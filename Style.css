@@ -1,7 +1,32 @@
 * {
   font-weight: 500;
-}
 
+}
+.body{
+  max-width: 1490px;
+  margin: auto;
+}
+.text-orange{
+  color: #F15A29;
+}
+.text-purple{
+  color: #623F99;
+}
+.text-green{
+  color: #39B54A;
+}
+.text-lightblue{
+  color: #177AA7;
+}
+.text-red{
+  color: #EE2A7B;
+}
+.text-darkorange{
+  color: #E65025;
+}
+.birdAndResidentDiv{
+  background: #FFFDF5; padding-bottom: 50px;
+}
 .menuButtonDash1 {
   min-width: 35px;
   height: 5px;
@@ -10,7 +35,9 @@
   margin: 0;
   margin-bottom: 4px;
 }
-
+.ourQualityDesc{
+  padding: 20px 0; font-size: 18px;
+}
 .menuButtonDash2 {
   min-width: 35px;
   height: 5px;
@@ -22,13 +49,12 @@
 .ImageResponsive {
   width: 100%;
   height: 100%;
-  -o-object-fit: contain;
      object-fit: contain;
 }
 
 .navbarDiv {
   margin-top: 20px;
-  padding: 10px 40px;
+  padding: 10px 30px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -121,6 +147,7 @@
 }
 
 .link a {
+  text-decoration: none;
   background: #FFE6C4;
   color: #E65024;
   padding: 12px 16px;
@@ -173,7 +200,7 @@
     justify-content: space-between;
   }
 }
-@media screen and (max-width: 1320px) {
+@media screen and (max-width: 1360px) {
   .navbarDiv {
     padding: 10px 10px;
   }
@@ -195,7 +222,7 @@
     padding: 12px 16px;
   }
 }
-@media screen and (max-width: 1230px) {
+@media screen and (max-width: 1295px) {
   .navbarRight {
     display: none;
   }
@@ -260,20 +287,25 @@
   width: 95%;
   margin: auto;
   margin-top: 40px;
+  justify-content: center;
 }
 
 .serviseLeftSection {
   width: 260px;
+  margin: 0;
 }
 
 .serviceRightSection {
-  width: 100%;
+  width: 65%;
+  margin-left: 30px;
 }
+.serviceDivCenter{
 
+}
 .eachRow {
   padding-top: 10px;
   display: flex;
-  justify-content: space-evenly;
+  gap: 30px;
 }
 
 .eachCard {
@@ -319,6 +351,7 @@
     padding: 20px;
     width: 240px;
     height: 330px;
+    min-height: fit-content;
   }
   .eachRow {
     justify-content: space-between;
@@ -333,6 +366,7 @@
   }
   .serviceRightSection {
     width: 100%;
+    margin-left: 30px;
   }
   .eachRow {
     justify-content: space-evenly;
@@ -345,6 +379,10 @@
   .eachCard {
     width: 100%;
     height: 100%;
+  }
+  .serviceRightSection {
+    width: 100%;
+    margin-left: 0;
   }
   .firstImageDiv {
     width: 99%;
@@ -416,9 +454,9 @@
 }
 
 .OurResidentDescText {
+
   font-size: 20px;
   font-weight: 500;
-  color: #E41D73;
 }
 
 .OurresidentNameDiv {
@@ -474,6 +512,7 @@
 
 .hiddenImage {
   display: none;
+
 }
 
 .nameFontsize {
@@ -502,6 +541,8 @@
   }
   .hiddenImage {
     display: flex;
+    width: 100%;
+    height: 100%;
     border-radius: 20px;
     overflow: hidden;
   }
@@ -510,6 +551,7 @@
     border: none;
     border-radius: 20px;
     margin-top: 0px;
+    background: transparent;
   }
   .nameFontsize {
     font-size: 24px;
@@ -574,7 +616,9 @@
 .VisitUscard {
   width: 28%;
 }
-
+.pt-10{
+  padding-top: 40px;
+}
 .visitUsCardssection {
   display: flex;
   gap: 20px;
@@ -592,7 +636,6 @@
 .visitUsCardHeadingText {
   font-size: 40px;
   font-weight: 400;
-  color: orange;
   padding: 10px 0;
   margin: 0;
 }
@@ -600,7 +643,6 @@
 .visitUsCardDescText {
   font-size: 20px;
   font-weight: 400;
-  color: orange;
   padding: 10px 0;
   margin: 0;
 }
@@ -617,7 +659,10 @@
   bottom: -140px;
   left: 0;
 }
-
+.VisitUsEachCard{
+  display: flex;align-items: center;
+  height: 140px;
+}
 .cardNumber {
   min-width: 60px;
   height: 60px;
@@ -717,7 +762,15 @@
 .botomLeftUpperDiv {
   padding: 30px;
 }
-
+.text-lg{
+  font-size: 20px;font-weight: 400;
+}
+.py-5{
+  padding: 20px 0;
+}
+.bg-lightblue{
+  background-color: #1679A7;
+}
 .bottomLeftWrapDiv {
   display: flex;
   flex-wrap: wrap;
@@ -726,7 +779,6 @@
 .bottomLeftWrapText {
   font-size: 20px;
   font-weight: 400;
-  color: orange;
   padding: 4px 0;
   margin: 0;
   width: 50%;
@@ -848,11 +900,15 @@
   border: 1px solid #ED2A7B;
   margin: 0;
 }
-
-.stalkUs {
-  padding: 20px;
+.text-black{
+  color: black;
 }
-
+.stalkUs {
+  padding: 20px;display: flex; gap: 20px; align-items: center;
+}
+.footerLeftText{
+  font-weight: 400;    min-width: fit-content;
+}
 .footerCenterText {
   display: flex;
   justify-content: center;

@@ -1,493 +1,561 @@
-*{
-    font-weight: 500;
-    
+* {
+  font-weight: 500;
+}
+.menuButtonDash1{
+  min-width: 35px;
+  height: 5px;background-color: #E41D73;
+  border-radius: 10px;margin: 0; margin-bottom: 4px;
+}
+.menuButtonDash2{
+  min-width: 35px;
+            height: 5px;background-color: #00AEEF;
+            border-radius: 10px;margin: 0;
+}
+.navbarDiv {
+  margin-top: 20px;
+  padding: 10px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.navbarDiv{
+.searchButton {
+  background: #FFE6C4;
+  color: #E65024;
+  padding: 12px 16px;
+  border-radius: 8px;
+  border: none;
+}
+
+.allLinks {
+  border-radius: 8PX;
+  background: #FFE6C4;
+  display: flex;
+  padding: 0 20px;
+}
+
+.linksButtons {
+  display: flex;
+  gap: 20px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.link {
+  background: #FFE6C4;
+  color: #E65024;
+  padding: 12px 16px;
+}
+
+.link a {
+  background: #FFE6C4;
+  color: #E65024;
+  padding: 12px 16px;
+}
+
+.navbarLeft {
+  min-width: 130px;
+  height: 130px;
+}
+
+.Orangebutton {
+  background-color: #F15A29;
+  color: white;
+  border: navajowhite;
+  border-radius: 8px;
+  padding: 10px 20px;
+}
+
+.Purplebutton {
+  background-color: #623F99;
+  color: white;
+  border: navajowhite;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.navbarText {
+  padding-top: 10px;
+  color: #312D2D;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.HeadingLeftSide {
+  width: 100%;
+  padding: 50px 20px;
+  background-image: url("./BackgroundVector.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 20px;
+}
+
+.menuButton {
+  display: none;
+  align-items: center;
+  gap: 10px;
+}
+
+.headingRightSide {
+  min-width: 130px;
+  min-height: 160px;
+}
+
+.HeadingText {
+  justify-content: center;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.vectorHide {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  .navbarLeft {
+    min-width: 100px !important;
+    max-height: 100px !important;
+  }
+  .navbarDiv {
     margin-top: 20px;
-    padding: 10px 40px;
+    padding: 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-.searchButton{
-    background: #FFE6C4;
-    color: #E65024;
-    padding: 12px 16px;
-    border-radius: 8px;
-    border: none;
-}
-.allLinks{
-    border-radius: 8PX;
-    background: #FFE6C4;
-
+  }
+  .HeadingText {
+    flex-direction: column;
+  }
+  .HeadingLeftSide {
+    background-image: none;
+  }
+  .vectorHide {
     display: flex;
-    padding: 0 20px;
-}
-.linksButtons{
+    max-width: 70% !important;
+  }
+  .headingRightSide {
     display: flex;
-    gap: 20px;
+    width: 100%;
+    align-items: center;
+  }
+  .beeImage {
+    max-width: 120px;
+    max-height: 120px;
+  }
+  .navbarText {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 1320px) {
+  .navbarDiv {
+    padding: 10px 10px;
+  }
+  .linksButtons {
+    display: flex;
+    gap: 10px;
     font-weight: 400;
     font-size: 18px;
-}
-.link{
+  }
+  .linksButtons {
+    display: flex;
+    gap: 10px;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .link {
     background: #FFE6C4;
     color: #E65024;
     padding: 12px 16px;
+  }
 }
-.link a{
-    background: #FFE6C4;
-    color: #E65024;
-    padding: 12px 16px;
-}
-
-
-.navbarLeft{
-    min-width: 130px;
-    height: 130px;
-}
-.Orangebutton{
-    background-color: #F15A29;
-    color: white;
-    border: navajowhite;
-    border-radius: 8px;
-    padding: 10px 20px;
-}
-.Purplebutton{
-    background-color: #623F99;
-    color: white;
-    border: navajowhite;
-    border-radius: 8px;
-    padding: 10px ;
-}
-.navbarText{
-    padding-top: 10px;
-    color: #312D2D;
-    font-size: 40px;
-    font-weight: 500;
-}
-.HeadingLeftSide{
-    width: 100%;
-    padding: 50px 20px;
-    background-image: url('./BackgroundVector.png');
-     background-size: cover;
-     background-repeat: no-repeat;
-     background-position: center;
-     margin-bottom: 20px;
-}
-.menuButton{
+@media screen and (max-width: 1230px) {
+  .navbarRight {
     display: none;
+  }
+  .menuButton {
+    display: flex;
     align-items: center;
     gap: 10px;
+  }
 }
-.headingRightSide{
-    min-width: 130px;
-    min-height: 160px;
-}
-.HeadingText{
-    justify-content: center;
-    display: flex;
-    gap: 20px; 
-    align-items: center;
-
-}
-.vectorHide{
- display: none;
-}
-@media screen and (max-width:900px){
-    .navbarLeft{
-        min-width: 100px !important;
-        max-height: 100px !important;
-    }
-    .navbarDiv{
-        margin-top: 20px;
-        padding: 40px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-    .HeadingText{
-        flex-direction: column;
-    }
-    .HeadingLeftSide{
-        background-image: none;
-    }
-    .vectorHide{
-        display: flex;
-        max-width: 70% !important;
-    }
-    .headingRightSide{
-        display: flex;
-        width: 100%;
-        align-items: center;
-    }
-    .beeImage{
-        max-width: 120px;
-        max-height: 120px;
-    }
-    .navbarText{
-        font-size: 30px;
-    }
-}
-@media screen and (max-width:1320px) {
-    .navbarDiv{
-        padding: 10px 10px;
-    }
-    .linksButtons{
-        display: flex;
-        gap: 10px;
-        font-weight: 400;
-        font-size: 18px;
-    }
-    .linksButtons{
-        display: flex;
-        gap: 10px;
-        font-weight: 400;
-        font-size: 18px;
-    }
-    .link{
-        background: #FFE6C4;
-        color: #E65024;
-        padding: 12px 16px;
-    }
-}
-@media screen and (max-width:1230px) {
-    .navbarRight{
-        display: none;
-    }
-    .menuButton{
-        display: flex;
-        align-items: center;
-        gap: 10px;
-    }
+.firstImage {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
-.firstImage{
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
-.collaborationImageDiv{
-    min-width: 280px;
-    height: 150px;
+.collaborationImageDiv {
+  min-width: 280px;
+  height: 150px;
 }
 
 /* Cards section css  */
-.Allcards{
-    margin:50px  auto;
-    width: 95%;
-    display: flex;
-    gap: 40px;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-.singlecard{
-    width: 45%;
-    background-color: #FCF7EC;
-    padding: 30px;
-    border-radius: 20px;
-    border: 1px solid lightgray;
-}
-.CardHeadingText{
-    font-size: 36px;
-    margin: 0;
-}
-.inputWrapingDiv{
-    display: flex;
-    flex-wrap: wrap;
-}
-.eachInput{
-    width: 50%;
-    padding-top: 30px;
-}
-.box{
-    width: 40px;
-    height: 40px;
-    background: #D9D9D9;
-}
-.cardButtons{
-    width: 188px;
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: 18px;
-    border: none;
-    border-radius: 8px;
-    margin-top: 20px;font-weight: 400;
+.Allcards {
+  margin: 50px auto;
+  width: 95%;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
+.singlecard {
+  width: 45%;
+  background-color: #FCF7EC;
+  padding: 30px;
+  border-radius: 20px;
+  border: 1px solid lightgray;
+}
 
+.CardHeadingText {
+  font-size: 36px;
+  margin: 0;
+}
+
+.inputWrapingDiv {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.eachInput {
+  width: 50%;
+  padding-top: 30px;
+}
+
+.box {
+  width: 40px;
+  height: 40px;
+  background: #D9D9D9;
+}
+
+.cardButtons {
+  width: 188px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  margin-top: 20px;
+  font-weight: 400;
+}
+.collaborationWrap{
+  display: flex; gap: 80px; overflow-x: auto; padding:0 10px; margin: 0 10px;
+}
+.ourcollaborationText{
+  display: flex;justify-content: center;font-size: 25px; font-weight: 500;color: #626262;padding: 20px 0;
+}
 /* Bottom div css  */
-.botomLeftUpperDiv{
-    display: flex;
-    border: 1px solid lightgray;
-    border-radius: 20px;
-    background-color: #FCF7EC;
+.botomLeftUpperDiv {
+  display: flex;
+  border: 1px solid lightgray;
+  border-radius: 20px;
+  background-color: #FCF7EC;
 }
-.botomLeftBottomDiv{
-    padding: 30px;
-    display: flex;
-    border: 1px solid lightgray;
-    border-radius: 20px;
-    background-color: #F9F2FF;
+
+.botomLeftBottomDiv {
+  padding: 30px;
+  display: flex;
+  border: 1px solid lightgray;
+  border-radius: 20px;
+  background-color: #F9F2FF;
 }
-.DiscoverDiv{
-    width: 50%;
+
+.DiscoverDiv {
+  width: 50%;
 }
-.bottomLeftDiv{
-    width: 60%;
-    display: flex;
+.visitUsCardHeadingText {
+  font-size: 40px;
+  font-weight: 500;
+  color: orange;
+  padding: 10px 0;
+  margin: 0;
+}
+.bottomLeftDiv {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.botomLeftUpperDiv {
+  padding: 30px;
+}
+
+.bottomLeftWrapDiv {
+  display: flex;
+  flex-wrap: wrap;
+}
+.joinNewletterInput{
+  border-radius: 8px;outline: none;border: none;padding:12px 16px ;width: 100%; 
+}
+.bottomDivHeading {
+  font-size: 40px;
+}
+
+.bottomLeftWrapText {
+  font-size: 20px;
+  font-weight: 400;
+  color: #E65025;
+  padding: 4px 0;
+  margin: 0;
+  width: 50%;
+}
+
+.InputWrap {
+  display: flex;
+  width: 50%;
+  gap: 20px;
+  padding: 10px;
+}
+
+.InputWrapContainer {
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  padding-top: 70px;
+  justify-content: space-around;
+}
+
+.bottomRightDiv {
+  position: relative;
+  width: 30%;
+  background-color: #EDF9FF;
+  padding: 30px;
+  border-radius: 20px;
+  border: 1px solid #1679A7;
+}
+
+.bottomDiv {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  background-color: #FFFDF5;
+}
+
+.footerAbsoluteImage {
+  position: absolute;
+  bottom: -16px;
+  right: -40px;
+  width: 280px;
+  height: 280px;
+}
+
+@media screen and (max-width: 1060px) {
+  .botomLeftUpperDiv {
+    padding: 20px;
+  }
+  .botomLeftBottomDiv {
+    padding: 20px;
+  }
+  .bottomRightDiv {
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 920px) {
+  .bottomDiv {
     flex-direction: column;
-    gap: 20px;
+    align-items: center;
+  }
+  .bottomLeftDiv {
+    width: 97%;
+  }
+  .bottomRightDiv {
+    width: 97%;
+  }
 }
-.botomLeftUpperDiv{
-    padding: 30px;
-}
-.bottomLeftWrapDiv{
-    display: flex;
-    flex-wrap: wrap;
-}
-.bottomDivHeading{
-    font-size: 40px;
-}
-.bottomLeftWrapText{
+@media screen and (max-width: 640px) {
+  .bottomDiv {
+    flex-direction: column;
+    align-items: center;
+  }
+  .bottomLeftDiv {
+    width: 97%;
+  }
+  .bottomRightDiv {
+    width: 97%;
+  }
+  .bottomLeftWrapText {
     font-size: 20px;
     font-weight: 400;
-    color: #E65025;
+    color: orange;
     padding: 4px 0;
     margin: 0;
-    width: 50%;
-}
-.InputWrap{
-display: flex;
-width: 50%;
-gap: 20px;
-padding: 10px;
-}
-.InputWrapContainer{
-display: flex;
-gap: 20px;
-padding: 10px;
-padding-top: 70px;
-justify-content: space-around;
-}
-.bottomRightDiv{
-    position: relative;
-    width: 30%;
-    background-color: #EDF9FF;
-    padding: 30px;
-    border-radius: 20px;
-    border: 1px solid #1679A7;
-}
-.bottomDiv{
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    background-color: #FFFDF5;
-}
-.footerAbsoluteImage{
-    position: absolute;
-    bottom: -16px;
-    right: -40px;
-    width: 280px;
-    height: 280px;
-}
-@media screen and (max-width:1060px) {
-    .botomLeftUpperDiv{
-        padding: 20px;
-    }
-    .botomLeftBottomDiv{
-        padding: 20px;
-    }
-    .bottomRightDiv{
-        padding: 20px;
-    }
-}
-@media screen and (max-width:920px) {
-    .bottomDiv{
-        flex-direction: column;
-        align-items: center;
-    }
-    .bottomLeftDiv{
-        width: 97%;
-    }
-    .bottomRightDiv{
-        width: 97%;
-    }
-}
-@media screen and (max-width:640px) {
-    .bottomDiv{
-        flex-direction: column;
-        align-items: center;
-    }
-    .bottomLeftDiv{
-        width: 97%;
-    }
-    .bottomRightDiv{
-        width: 97%;
-    }
-    .bottomLeftWrapText{
-        font-size: 20px;
-        font-weight: 400;
-        color: orange;
-        padding: 4px 0;
-        margin: 0;
-        width: 100%;
-    }
-    .InputWrapContainer{
-        flex-direction: column;
-    }
-    .InputWrap{
-        width: 100%;
-    }
-}
-
-.firstImageDiv{
-    width: 95%;
-    margin: auto;
-    padding: 20px;
-}
-.footerImageDiv{
-    width: 95%;
-    margin: auto;
-    padding: 20px;
-}
-
-.footerDiv{
-    background: #FFFDF5;
-    padding: 10px 40px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.footerDots{
-    display: flex;
-    gap: 16px;
-    align-items: center;
-}
-.Allrights{
-    margin-top: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     width: 100%;
-}
-.footerLeft{
+  }
+  .InputWrapContainer {
+    flex-direction: column;
+  }
+  .InputWrap {
     width: 100%;
+  }
 }
-.footerRight{
-    width: 180px;
-    height: 190px;
+.firstImageDiv {
+  width: 95%;
+  margin: auto;
+  padding: 20px;
 }
-.stalkUs{
-    padding: 20px ;
+.footerEaachDot{
+  width: 28px; height: 28px;border-radius: 20px;border: 1px solid #ED2A7B;margin: 0;
 }
-
-.cardButtons{
-    width: 188px;
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: 18px;
-    border: none;
-    border-radius: 8px;
-    margin-top: 20px;font-weight: 400;
+.footerImageDiv {
+  width: 95%;
+  margin: auto;
+  padding: 20px;
 }
 
-@media screen and (max-width:1200px) {
-    .Allcards{
-        margin:50px  auto;
-        width: 99%;
-        display: flex;
-        gap: 30px;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-}
-@media screen and (max-width:810px) {
-    .singlecard{
-        width: 96%;
-        background-color: #FCF7EC;
-        padding: 30px;
-        border-radius: 20px;
-        border: 1px solid lightgray;
-    }
+.footerDiv {
+  background: #FFFDF5;
+  padding: 10px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-@media screen and (max-width:920px) {
-    .footerDiv{
-        flex-direction: column;
-        padding: 10px;
-        display: flex;
-    }
-    .Allrights{
-        flex-direction: column;
-    }
-    .stalkUs{
-        padding: 40px 0;
-        display: flex ;
-        justify-content: center;
-    }
-    .footerText{
-        margin: 0;
-    }
-    .footerAbsoluteImage{
-        display: none;
-    }
-    .footerImageDiv{
-        width: 96%;
-        padding: 0;
-    }
-    .firstImageDiv{
-        width: 96%;
-        padding: 0;
-    }
+.footerDots {
+  display: flex;
+  gap: 16px;
+  align-items: center;
 }
-.faqDiv{
-    width: 92%;
-    margin: auto;
-    padding: 30px;
-    display: flex;
-    border: 1px solid lightgray;
-    border-radius: 20px;
-    background-color: #F4FAEF;
+.footerCenterText{
+  display: flex;justify-content: center;width: 100%;
 }
-.faq{
-    background: #FFFDF5;
-    padding:  30px 0;
+.Allrights {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
 }
-.faqLeftside{
-    width: 20%;
+
+.footerLeft {
+  width: 100%;
 }
-.eachFaq{
-    background: #FCF7EC;
-    color: #E65025;
-    font-size: 20px;
-    font-weight: normal;
-    display: flex;
-    align-items: center;
-    border-radius: 12px;
-    border: 1px solid #E65025;
-    padding: 10px 30px;
-    padding-left: 170px;
-    position: relative;
+
+.footerRight {
+  width: 180px;
+  height: 190px;
 }
-.FooterAbsolut{
-    position: absolute;
-    bottom: 0;
-    left: 20px;
+
+.stalkUs {
+  padding: 20px;
 }
-.faqText{
+
+.cardButtons {
+  width: 188px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  margin-top: 20px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1200px) {
+  .Allcards {
+    margin: 50px auto;
+    width: 99%;
     display: flex;
     gap: 30px;
-    margin: 0;width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 }
-@media screen and (max-width:940px) {
-    .faqDiv{
-        display: none;
-    }
+@media screen and (max-width: 810px) {
+  .singlecard {
+    width: 96%;
+    background-color: #FCF7EC;
+    padding: 30px;
+    border-radius: 20px;
+    border: 1px solid lightgray;
+  }
 }
+@media screen and (max-width: 920px) {
+  .footerDiv {
+    flex-direction: column;
+    padding: 10px;
+    display: flex;
+  }
+  .Allrights {
+    flex-direction: column;
+  }
+  .stalkUs {
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+  }
+  .footerText {
+    margin: 0;
+  }
+  .footerAbsoluteImage {
+    display: none;
+  }
+  .footerImageDiv {
+    width: 96%;
+    padding: 0;
+  }
+  .firstImageDiv {
+    width: 96%;
+    padding: 0;
+  }
+}
+.faqDiv {
+  width: 92%;
+  margin: auto;
+  padding: 30px;
+  display: flex;
+  border: 1px solid lightgray;
+  border-radius: 20px;
+  background-color: #F4FAEF;
+}
+
+.faq {
+  background: #FFFDF5;
+  padding: 30px 0;
+}
+
+.faqLeftside {
+  width: 20%;
+}
+
+.eachFaq {
+  background: #FCF7EC;
+  color: #E65025;
+  font-size: 20px;
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+  border: 1px solid #E65025;
+  padding: 10px 30px;
+  padding-left: 170px;
+  position: relative;
+}
+
+.FooterAbsolut {
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+}
+
+.faqText {
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 940px) {
+  .faqDiv {
+    display: none;
+  }
+}/*# sourceMappingURL=Style2.css.map */

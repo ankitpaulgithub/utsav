@@ -1,0 +1,813 @@
+* {
+    font-weight: 500;
+  }
+  .menuButtonDash1{
+    min-width: 35px;
+    height: 5px;background-color: #E41D73;
+    border-radius: 10px;margin: 0; margin-bottom: 4px;
+  }
+  .menuButtonDash2{
+    min-width: 35px;
+              height: 5px;background-color: #00AEEF;
+              border-radius: 10px;margin: 0;
+  }
+  .ImageResponsive{
+    width: 100%; height: 100%;object-fit: contain;
+  }
+  .navbarDiv {
+    margin-top: 20px;
+    padding: 10px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .EachDots{
+    width: 12px; height: 12px;border-radius: 20px;border: 1px solid #E65025;
+  }
+  .paickaDate{
+    width: 228px; padding: 10px; display: flex; justify-content: center; align-items: center;background-color: #E65025; color: white; font-size: 18px; border: none;border-radius: 8px;margin-top: 20px;
+  }
+  .checkEmail{
+    width: 228px; padding: 10px; display: flex; justify-content: center; align-items: center; color: #177AA7; font-size: 20px; border: none;border-radius: 8px;margin-top: 20px; font-weight: 400;background-color: transparent;
+  }
+  .reachOut{
+    width: 228px; padding: 10px; display: flex; justify-content: center; align-items: center; color: #65368D; font-size: 20px; border: none;border-radius: 8px;margin-top: 20px; font-weight: 400;background-color: transparent;
+  }
+  .bottomLeftInput{
+    border-radius: 8px;outline: none;border: none;padding:12px 16px ;
+  }
+  .searchButton {
+    background: #FFE6C4;
+    color: #E65024;
+    padding: 12px 16px;
+    border-radius: 8px;
+    border: none;
+  }
+  
+  .allLinks {
+    border-radius: 8PX;
+    background: #FFE6C4;
+    display: flex;
+    padding: 0 20px;
+  }
+  
+  .linksButtons {
+    display: flex;
+    gap: 20px;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  
+  .link {
+    background: #FFE6C4;
+    color: #E65024;
+    padding: 12px 16px;
+  }
+  
+  .link a {
+    background: #FFE6C4;
+    color: #E65024;
+    padding: 12px 16px;
+  }
+  
+  .navbarLeft {
+    min-width: 300px;
+    height: 190px;
+  }
+  
+  .Orangebutton {
+    background-color: #F15A29;
+    color: white;
+    border: navajowhite;
+    border-radius: 8px;
+    padding: 10px 20px;
+  }
+  
+  .Purplebutton {
+    background-color: #623F99;
+    color: white;
+    border: navajowhite;
+    border-radius: 8px;
+    padding: 10px;
+  }
+  
+  .navbarText {
+    padding-top: 10px;
+    color: #312D2D;
+    font-size: 40px;
+    font-weight: 500;
+  }
+  
+  .menuButton {
+    display: none;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .navbarLeft {
+      min-width: 100px !important;
+      max-height: 100px !important;
+    }
+    .navbarDiv {
+      margin-top: 20px;
+      padding: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+  @media screen and (max-width: 1320px) {
+    .navbarDiv {
+      padding: 10px 10px;
+    }
+    .linksButtons {
+      display: flex;
+      gap: 10px;
+      font-weight: 400;
+      font-size: 18px;
+    }
+    .linksButtons {
+      display: flex;
+      gap: 10px;
+      font-weight: 400;
+      font-size: 18px;
+    }
+    .link {
+      background: #FFE6C4;
+      color: #E65024;
+      padding: 12px 16px;
+    }
+  }
+  @media screen and (max-width: 1230px) {
+    .navbarRight {
+      display: none;
+    }
+    .menuButton {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+  }
+  .firstImageDiv {
+    width: 95%;
+    margin: auto;
+    padding: 20px;
+  }
+  .collaborationWrap{
+    display: flex; gap: 80px; overflow-x: auto; padding:0 10px; margin: 0 10px;
+  }
+  .firstImage {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .ourcollaborationText{
+    display: flex;justify-content: center;font-size: 25px; font-weight: 500;color: #626262;padding: 20px 0;
+  }
+  .collaborationImageDiv {
+    min-width: 280px;
+    height: 150px;
+  }
+  .ourserviceButton{
+    width: 258px; padding: 10px; display: flex; justify-content: center; align-items: center;background-color: #F04C23; color: white; font-size: 18px; border: none;border-radius: 8px;
+  }
+  .ourServicesDiv {
+    display: flex;
+    padding: 16px;
+    margin-top: 40px;
+    width: 95%;
+    margin: auto;
+    margin-top: 40px;
+  }
+  
+  .serviseLeftSection {
+    width: 260px;
+  }
+  
+  .serviceRightSection {
+    width: 100%;
+  }
+  
+  .eachRow {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .eachCard {
+    background-color: #FCF7EC;
+    padding: 40px;
+    border-radius: 20px;
+    width: 280px;
+    border: 1px solid #D2D2D2;
+    height: 360px;
+  }
+  
+  .cardMarginTop {
+    margin-top: 150px;
+  }
+  
+  .cardHeading {
+    font-size: 26px;
+  }
+  
+  .cardDescription {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  .cardDescription2 {
+    width: 70%;
+  }
+  
+  .cardAbsoluteImg {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  
+  @media screen and (max-width: 1250px) {
+    .ourServicesDiv {
+      width: 98%;
+      padding: 10px 0;
+      justify-content: space-between;
+      gap: 10px;
+    }
+    .eachCard {
+      padding: 20px;
+      width: 240px;
+      height: 330px;
+    }
+    .eachRow {
+      justify-content: space-between;
+    }
+  }
+  @media screen and (max-width: 1024px) {
+    .ourServicesDiv {
+      flex-direction: column;
+    }
+    .serviseLeftSection {
+      width: 100%;
+    }
+    .serviceRightSection {
+      width: 100%;
+    }
+    .eachRow {
+      justify-content: space-evenly;
+    }
+    .ourServicesDiv {
+      padding: 12px;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .eachCard {
+      width: 100%;
+      height: 100%;
+    }
+    .firstImageDiv {
+      width: 99%;
+      margin: auto;
+      padding: 12px;
+    }
+    .eachRow {
+      flex-direction: column;
+      gap: 10px;
+    }
+    .cardMarginTop {
+      margin: 0;
+    }
+    .cardHeading {
+      font-size: 22px;
+    }
+    .cardDescription {
+      font-size: 16px;
+    }
+  }
+  .eachbirds {
+    min-width: 195px;
+    height: 140px;
+  }
+  
+  .birdsDiv {
+    display: flex;
+    gap: 100px;
+    width: 95%;
+    padding: 20px;
+    margin: auto;
+    overflow-x: auto;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .eachbirds {
+      min-width: 155px;
+      height: 110px;
+    }
+    .birdsDiv {
+      gap: 30px;
+      width: 95%;
+    }
+  }
+  .OurResidentDiv {
+    width: 92%;
+    margin: auto;
+    margin-top: -50px;
+    padding: 30px;
+    background-color: #F4FAEF;
+    border-radius: 20px;
+    border: 1px solid #3DA949;
+    display: flex;
+    gap: 40px;
+  }
+  
+  .residentLeftSection {
+    width: 100%;
+  }
+  
+  .residentRightSection {
+    width: 100%;
+  }
+  
+  .OurResidentHeadingText {
+    font-size: 40px;
+    font-weight: 500;
+    color: #E41D73;
+  }
+  
+  .OurResidentDescText {
+    font-size: 20px;
+    font-weight: 500;
+    color: #E41D73;
+  }
+  
+  .OurresidentNameDiv {
+    background-color: #FCF7EC;
+    padding: 20px;
+    padding-top: 40px;
+    border: 1px solid #E65025;
+    border-radius: 20px;
+    margin-top: 90px;
+  }
+  
+  .pagination {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+  }
+  
+  .chechoutYoutube {
+    font-size: 30px;
+    font-weight: 400;
+    color: #3DA949;
+    padding: 20px 0;
+  }
+  
+  .dots {
+    display: flex;
+    gap: 10px;
+    padding: 10px 0;
+    align-items: center;
+  }
+  
+  .OurResidentAbsoluteImage {
+    width: 200px;
+    height: 180px;
+    border-radius: 0px;
+    overflow: hidden;
+    position: absolute;
+    right: 40px;
+    top: -90px;
+  }
+  
+  .arrows {
+    border: 1px solid orange;
+    border-radius: 20px;
+    color: orange;
+    display: flex;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 0;
+  }
+  
+  .hiddenImage {
+    display: none;
+  }
+  
+  .nameFontsize {
+    font-size: 30px;
+  }
+  
+  @media screen and (max-width: 1280px) {
+    .OurResidentDiv {
+      width: 98%;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .OurResidentDiv {
+      flex-direction: column;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .OurResidentDiv {
+      flex-direction: column;
+      width: 100%;
+      border-radius: 0;
+      padding: 12px;
+    }
+    .OurResidentAbsoluteImage {
+      display: none;
+    }
+    .hiddenImage {
+      display: flex;
+      border-radius: 20px;
+      overflow: hidden;
+    }
+    .OurresidentNameDiv {
+      padding: 5px;
+      border: none;
+      border-radius: 20px;
+      margin-top: 0px;
+    }
+    .nameFontsize {
+      font-size: 24px;
+    }
+    .chechoutYoutube {
+      text-align: center;
+    }
+  }
+  .whataDay {
+    padding: 100px 0;
+    overflow: hidden;
+    background: #FFFDF5;
+  }
+  
+  .borderVector {
+    padding: 20px 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .tilted {
+    width: 110%;
+    background-color: #FAF5E8;
+    transform: rotate(2deg);
+    border: 4px solid #1D9ED9;
+    border-right: 0;
+    border-left: 0;
+    margin-left: -20px;
+  }
+  
+  .tiltedAbsolutImage {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 12;
+  }
+  
+  .sliiderDiv {
+    padding: 40px 0;
+    overflow-x: auto;
+  }
+  
+  .eachImage {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .sliderImage {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .visitUsDiv {
+    background-color: #FFFDF5;
+    padding: 40px 0;
+    position: relative;
+    padding-bottom: 180px;
+  }
+  
+  .VisitUscard {
+    width: 28%;
+  }
+  
+  .visitUsCardssection {
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    background-color: #FFFDF5;
+  }
+  
+  .visitUsHeadingText {
+    font-size: 40px;
+    font-weight: 400;
+    color: #3DA949;
+    padding: 20px;
+  }
+  
+  .visitUsCardHeadingText {
+    font-size: 40px;
+    font-weight: 400;
+    color: orange;
+    padding: 10px 0;
+    margin: 0;
+  }
+  
+  .visitUsCardDescText {
+    font-size: 20px;
+    font-weight: 400;
+    color: orange;
+    padding: 10px 0;
+    margin: 0;
+  }
+  
+  .visitAbsoluteimage {
+    width: 380px;
+    position: absolute;
+    top: -140px;
+    right: 0;
+  }
+  
+  .visitAbsoluteimage2 {
+    position: absolute;
+    bottom: -140px;
+    left: 0;
+  }
+  
+  .cardNumber {
+    min-width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-radius: 30px;
+    color: white;
+  }
+  
+  @media screen and (max-width: 900px) {
+    .visitAbsoluteimage {
+      width: 280px;
+      position: absolute;
+      top: -100px;
+      right: 0;
+    }
+    .visitAbsoluteimage2 {
+      width: 280px;
+      position: absolute;
+      bottom: -100px;
+      left: 0;
+    }
+    .hide {
+      display: none;
+    }
+    .visitUsDiv {
+      padding-bottom: 80px;
+    }
+    .visitUsCardssection {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      gap: 50px;
+    }
+    .tiltedAbsolutImage {
+      width: 250px;
+      height: 250px;
+    }
+    .VisitUscard {
+      width: 98%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .visitUsHeadingText {
+      font-size: 30px;
+      margin: 0;
+      padding: 10px;
+    }
+    .visitUsCardHeadingText {
+      font-size: 30px;
+      font-weight: 400;
+      color: orange;
+      padding: 0px;
+      margin: 0;
+    }
+    .visitUsCardDescText {
+      font-size: 18px;
+      font-weight: 400;
+      color: orange;
+      padding: 10px 0;
+      margin: 0;
+    }
+  }
+  .botomLeftUpperDiv {
+    display: flex;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    background-color: #FCF7EC;
+  }
+  
+  .botomLeftBottomDiv {
+    padding: 30px;
+    display: flex;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    background-color: #F9F2FF;
+  }
+  
+  .DiscoverDiv {
+    width: 50%;
+  }
+  
+  .bottomLeftDiv {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .botomLeftUpperDiv {
+    padding: 30px;
+  }
+  
+  .bottomLeftWrapDiv {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .bottomLeftWrapText {
+    font-size: 20px;
+    font-weight: 400;
+    color: orange;
+    padding: 4px 0;
+    margin: 0;
+    width: 50%;
+  }
+  
+  .InputWrap {
+    display: flex;
+    width: 50%;
+    gap: 20px;
+    padding: 10px;
+  }
+  
+  .InputWrapContainer {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+  }
+  
+  .bottomRightDiv {
+    position: relative;
+    width: 30%;
+    background-color: #EDF9FF;
+    padding: 30px;
+    border-radius: 20px;
+    border: 1px solid #1679A7;
+  }
+  
+  .bottomDiv {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    background-color: #FFFDF5;
+  }
+  
+  @media screen and (max-width: 1060px) {
+    .botomLeftUpperDiv {
+      padding: 20px;
+    }
+    .botomLeftBottomDiv {
+      padding: 20px;
+    }
+    .bottomRightDiv {
+      padding: 20px;
+    }
+  }
+  @media screen and (max-width: 920px) {
+    .bottomDiv {
+      flex-direction: column;
+      align-items: center;
+    }
+    .bottomLeftDiv {
+      width: 97%;
+    }
+    .bottomRightDiv {
+      width: 97%;
+    }
+  }
+  @media screen and (max-width: 640px) {
+    .bottomDiv {
+      flex-direction: column;
+      align-items: center;
+    }
+    .bottomLeftDiv {
+      width: 97%;
+    }
+    .bottomRightDiv {
+      width: 97%;
+    }
+    .bottomLeftWrapText {
+      font-size: 20px;
+      font-weight: 400;
+      color: orange;
+      padding: 4px 0;
+      margin: 0;
+      width: 100%;
+    }
+    .InputWrapContainer {
+      flex-direction: column;
+    }
+    .InputWrap {
+      width: 100%;
+    }
+  }
+  .footerDiv {
+    background: #FFFDF5;
+    padding: 10px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .footerDots {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+  }
+  
+  .Allrights {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .footerLeft {
+    width: 100%;
+  }
+  
+  .footerRight {
+    width: 180px;
+    height: 190px;
+  }
+  .footerEachBigDots{
+    width: 28px; height: 28px;border-radius: 20px;border: 1px solid #ED2A7B;margin: 0;
+  }
+  .stalkUs {
+    padding: 20px;
+  }
+  .footerCenterText{
+    display: flex;justify-content: center;width: 100%;
+  }
+  .cardButtons {
+    width: 128px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+    font-weight: 400;
+  }
+  
+  @media screen and (max-width: 920px) {
+    .footerDiv {
+      flex-direction: column;
+      padding: 10px;
+      display: flex;
+    }
+    .Allrights {
+      flex-direction: column;
+    }
+    .stalkUs {
+      padding: 40px 0;
+      display: flex;
+      justify-content: center;
+    }
+    .footerText {
+      margin: 0;
+    }
+    .footerAbsoluteImage {
+      display: none;
+    }
+  }
+  .footerAbsoluteImage {
+    position: absolute;
+    bottom: -16px;
+    right: -40px;
+    width: 280px;
+    height: 280px;
+  }/*# sourceMappingURL=Style.css.map */

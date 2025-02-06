@@ -1,6 +1,139 @@
 * {
   font-weight: 500;
 }
+.body{
+  max-width: 1490px;
+  margin: auto;
+}
+.text-orange{
+  color: #F15A29;
+}
+.text-purple{
+  color: #623F99;
+}
+.bg-purple{
+  background-color: #623F99;
+}
+.text-green{
+  color: #39B54A;
+}
+.bg-green{
+  background-color: #39B54A;
+}
+.text-lightblue{
+  color: #177AA7;
+}
+.bg-lightblue{
+  background-color: #177AA7;
+}
+.text-red{
+  color: #EE2A7B;
+}
+.bg-red{
+  background-color: #EE2A7B;
+}
+.text-darkorange{
+  color: #E65025;
+}
+.font-normal{
+  font-weight: 400;   
+}
+.decoration-none{
+  text-decoration: none;
+}
+.w-fit{
+  min-width: fit-content;
+}
+.text-black{
+  color: black;
+}
+.bg-darkorange{
+  background:#E65025 ;
+}
+.birdAndResidentDiv{
+  background: #FFFDF5; padding-bottom: 50px;
+}
+.residentSectionImage{
+  width: 100%;height: 80%;border-radius: 20px;
+}
+.w-90{
+  width: 90%;
+}
+.text-lg{
+  font-size: 20px; font-weight: 400;
+}
+.text-base{
+  font-size: 18px; font-weight: normal;
+}
+.py-4{
+  padding-top:16px ;
+  padding-bottom: 16px;
+}
+.pt-10{
+  padding-top: 40px;
+}
+.w-80{
+  width: 80%;
+}
+.w-80{
+  width: 80%;
+}
+.w-130{
+  width: 130px;
+}
+.w-full{
+  width: 100%;
+}
+.ImageResponsive {
+  width: 100%;
+  height: 100%;
+     object-fit: contain;
+}
+.bottomLeftInput {
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  padding: 12px 16px;
+}
+.text-xl{
+  font-size: 36px;
+}
+.closeOption{
+  display: inline-block;
+  padding: 5px 13px;
+  color: white;
+  margin: 0;
+  border-radius: 20px;
+  margin-left: 95%;
+  cursor: pointer;
+ }
+ .popUpDiv{
+   display: none;
+   justify-content: center;
+   width: 95%;
+   margin: auto;
+   padding: 40px 20px;
+   background: rgba(0, 0, 0, 0.7); /* Black with transparency */
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   align-items: center;
+   justify-content: center;
+   overflow-y: auto;
+   z-index: 99;
+ 
+ }
+ .PopUpCenter{
+   max-width: 780px;
+   margin: auto;
+   text-align: center;
+   background: white; /* White popup */
+   padding: 20px;
+   border-radius: 10px;
+   text-align: center;
+ }
 .menuButtonDash1{
   min-width: 35px;
   height: 5px;background-color: #E41D73;
@@ -48,6 +181,7 @@
 }
 
 .link a {
+  text-decoration: none;
   background: #FFE6C4;
   color: #E65024;
   padding: 12px 16px;
@@ -112,7 +246,10 @@
 .vectorHide {
   display: none;
 }
-
+.CardHeadingText {
+  font-size: 36px;
+  margin: 0;
+}
 @media screen and (max-width: 900px) {
   .navbarLeft {
     min-width: 100px !important;
@@ -130,6 +267,12 @@
   }
   .HeadingLeftSide {
     background-image: none;
+    padding: 10px 20px;
+    margin: 0;
+  }
+  .CardHeadingText {
+    font-size: 26px;
+    margin: 0;
   }
   .vectorHide {
     display: flex;
@@ -210,10 +353,7 @@
   border: 1px solid lightgray;
 }
 
-.CardHeadingText {
-  font-size: 36px;
-  margin: 0;
-}
+
 
 .inputWrapingDiv {
   display: flex;
@@ -301,7 +441,6 @@
 .bottomLeftWrapText {
   font-size: 20px;
   font-weight: 400;
-  color: #E65025;
   padding: 4px 0;
   margin: 0;
   width: 50%;
@@ -318,7 +457,6 @@
   display: flex;
   gap: 20px;
   padding: 10px;
-  padding-top: 70px;
   justify-content: space-around;
 }
 
@@ -444,6 +582,7 @@
 
 .stalkUs {
   padding: 20px;
+  display: flex; gap: 20px; align-items: center;color: #ED2A7B;
 }
 
 .cardButtons {
@@ -495,6 +634,7 @@
   }
   .footerText {
     margin: 0;
+    font-weight: 400;font-size: 20px;
   }
   .footerAbsoluteImage {
     display: none;
@@ -539,6 +679,7 @@
   padding: 10px 30px;
   padding-left: 170px;
   position: relative;
+  width: 320px;
 }
 
 .FooterAbsolut {
@@ -559,3 +700,247 @@
     display: none;
   }
 }/*# sourceMappingURL=Style2.css.map */
+
+.popup-overlay {
+  padding: 40px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-y: auto;
+}
+
+.popup {
+  margin-top: 250px;
+  background: white;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 780px;
+  padding: 50px;
+  position: relative;
+  text-align: center;
+}
+.email-image{
+  display: flex;
+  justify-content: space-between;
+}
+.text-start{
+  text-align: start;
+}
+.w-60{
+  width: 50%;
+}
+
+
+.title {
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  margin-bottom: 20px;
+}
+
+.popup-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.date-picker, .time-picker {
+  width: 45%;
+}
+
+.date-picker h2, .time-picker h2 {
+  margin-bottom: 10px;
+}
+
+.calendar {
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+}
+.text-white{
+  color: white;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.calendar-grid div {
+  padding: 10px;
+  background: white;
+  color: orange;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.highlighted {
+  background: darkorange;
+  color: white;
+}
+.timeDiv{
+
+}
+.time {
+  padding: 10px 0;
+  border-radius: 5px;
+}
+
+.email-section {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.email-section input {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #AD0B57;
+  border-radius: 5px;
+}
+.flex{
+  display: flex;
+}
+.submit-btn {
+  width: 138px;
+  background-color: #AD0B57;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.container {
+  display: flex;
+  gap: 50px;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 20px;
+  overflow: hidden;
+}
+@media screen and (max-width:800px) {
+  .container {
+    overflow-x: auto;
+  }
+}
+
+.calendar-container, .time-container {
+  text-align: center;
+  color: orange;
+}
+
+.calendar {
+  background: #ff6633;
+  color: white;
+  border-radius: 10px;
+  width: 370px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  overflow-y: auto;
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.nav-btn {
+  background: #ff8533;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.nav-btn:hover {
+  background: #ff541a;
+}
+
+.calendar-days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.calendar-dates {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+}
+
+.date {
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.date:hover {
+  background: #623F99;
+  color: white;
+}
+
+.time-container {
+  text-align: center;
+  width: 200px;
+}
+
+.time {
+  display: flex;
+  border-radius: 10px;
+  color: white;
+}
+.hours{
+  background: #E65025;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px 0 0 8px;
+}
+.minutes{
+  background: #E65025;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 0 8px 8px 0;
+}
+.time-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+.w-40{
+  width: 40px;
+}
+.time-btn {
+  background: #E65025;
+  border: none;
+  padding: 5px 15px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.ml-5{
+  margin-left: 20px;
+}
+
+.time-btn:hover {
+  background: #ff541a;
+}

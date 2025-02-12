@@ -2,6 +2,19 @@ document.addEventListener("DOMContentLoaded", () => {
     const popUpDiv = document.querySelector(".popUpDiv");
     const closeOption = document.querySelector(".closeOption");
     const openDailog = document.querySelector(".submit")
+    const openMenu = document.querySelector(".menuButton")
+    const responsiveNavbar = document.querySelector(".linksButtonsResponsive")
+
+    function toggleMenu() {
+        if (responsiveNavbar.style.display === "block") {
+            responsiveNavbar.style.display = "none";
+        } else {
+            responsiveNavbar.style.display = "block";
+        }
+    }
+
+openMenu.addEventListener("click", toggleMenu);
+
 
     // Function to open popup
     function openPopup() {

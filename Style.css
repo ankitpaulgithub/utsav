@@ -279,6 +279,25 @@
     padding: 12px 16px;
   }
 }
+.allLinksResp a{
+  padding: 0;
+}
+.allLinksResp{
+  background: #FFE6C4;
+}
+.respInput{
+  width: 95%;
+  padding: 4px 8px;
+  border-radius: 8px;
+  border: 1px solid #E65024;
+  margin: 16px
+}
+.linksButtonsResponsive{
+  display:none ;
+}
+.mt-1{
+  margin-top: 4px;
+}
 @media screen and (max-width: 1295px) {
   .navbarRight {
     display: none;

@@ -782,6 +782,9 @@
   .popup {
     margin-top: 750px;
   }
+  .w-60{
+    width: 90%;
+  }
 }
 @media screen and (max-width:450px) {
   .popup {
@@ -908,13 +911,13 @@
 @media screen and (max-width:450px) {
   .calendar {
     width: 330px;
-    padding: 5px;
+    padding:20px 5px;
   }
 }
 @media screen and (max-width:400px) {
   .calendar {
     width: 300px;
-    padding: 5px;
+    padding:20px 5px;
   }
   .date {
     color: white;

@@ -39,7 +39,7 @@ openMenu.addEventListener("click", toggleMenu);
 document.addEventListener("DOMContentLoaded", () => {
     const popUpDiv2 = document.querySelector(".popup-overlay");
     const closeOption = document.querySelector(".close-btn");
-    const openDailog = document.querySelector(".loginPopUp")
+    const openDialogs = document.querySelectorAll(".loginPopUp")
 
     // Function to open popup
     function openPopup() {
@@ -55,7 +55,9 @@ document.addEventListener("DOMContentLoaded", () => {
     closeOption.addEventListener("click", closePopup);
 
     //open popup
-    openDailog.addEventListener("click",openPopup)
+    openDialogs.forEach(button => {
+        button.addEventListener("click", openPopup);
+    });
 
     // Open popup (example: on page load after 2 seconds)
     // setTimeout(openPopup, 2000);

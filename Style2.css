@@ -135,6 +135,7 @@
    text-align: center;
  }
 .menuButtonDash1{
+
   min-width: 35px;
   height: 5px;background-color: #E41D73;
   border-radius: 10px;margin: 0; margin-bottom: 4px;
@@ -226,6 +227,7 @@
 }
 
 .menuButton {
+  cursor: pointer;
   display: none;
   align-items: center;
   gap: 10px;
@@ -337,6 +339,7 @@
     display: none;
   }
   .menuButton {
+    cursor: pointer;
     display: flex;
     align-items: center;
     gap: 10px;
